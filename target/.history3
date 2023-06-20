@@ -1,0 +1,82 @@
+1687244718540:compile
+1687245443475:exit
+1687245460968:compile
+1687245564177:exit
+1687245578979:compile
+1687245934360:scalafmt .
+1687245944771:scalafmt
+1687246380423:scala Main.scala --limit 20 "Scala Programming"
+1687246387554:scala Main.scala --limit 20
+1687247843091:scala Main.scala --limit 20 "Scala Programming"
+1687247850109:compile
+1687247861803:scala Main.scala --limit 20 "Scala Programming"
+1687247870711:scala Main.scala --limit 20
+1687247877653:compile
+1687248020730:scala Main.scala --limit 20
+1687248073563:run
+1687248079617:scala Main.scala --limit 20
+1687248100429:run --limit 20 "Scala Programming"
+1687249639558:run
+1687249750733:formatUrl
+1687249872286:compile
+1687249875807:run
+1687250397843:compile
+1687250784167:run
+1687250792301:run --limit 20 "Scala Programming"
+1687250943843:compile
+1687250996720:run
+1687251001421:totalWordsCount
+1687251029227:totalWords
+1687251128889:compile
+1687251148339:run
+1687251151904:totalWords
+1687251154944:totalWordsCount
+1687251185468:sbt:wikipages> run
+1687251185558:[info] running Main
+1687251185773:Error: Missing argument <keyword>
+1687251185871:Usage: WikiStats [options] <keyword>
+1687251186159:Unable to parse arguments
+1687251186235:[success] Total time: 1 s, completed 20 juin 2023 10:52:29
+1687251186384:sbt:wikipages> totalWords
+1687251186455:[error] Not a valid command: totalWords
+1687251186602:[error] Not a valid project ID: totalWords
+1687251186750:[error] Expected ':'
+1687251186892:[error] Not a valid key: totalWords
+1687251190504:sbt:wikipages> run
+1687251190566:[info] running Main
+1687251190718:Error: Missing argument <keyword>
+1687251190784:Usage: WikiStats [options] <keyword>
+1687251190974:Unable to parse arguments
+1687251191030:[success] Total time: 1 s, completed 20 juin 2023 10:52:29
+1687251191163:sbt:wikipages> totalWords
+1687251191234:[error] Not a valid command: totalWords
+1687251191382:[error] Not a valid project ID: totalWords
+1687251191516:[error] Expected ':'
+1687251191659:[error] Not a valid key: totalWords
+1687251198777:sbt "run --limit 20 Scala"
+1687251220024:"run --limit 20 Scala"
+1687251255296:sbt "run --limit 20 Scala"
+1687251286091:run --limit 20 Scala
+1687251347290:run --limit 17 Scala
+1687251426796:run --limit 17 Issa
+1687251448118:run --limit 17 Cheikh Issa
+1687251464694:run --limit 17 "Cheikh Issa"
+1687251616670:run --limit 17 louise
+1687252130448:sbt test
+1687252250834:test
+1687252797623:sbt test
+1687253003242:test
+1687253497500:compile
+1687253500905:run
+1687253510247:run --limit 17 Scala
+1687253529044:test
+1687253774119:sbt
+1687253777473:test
+1687255760121:compile
+1687255796788:run
+1687257382429:compile
+1687257387599:run
+1687257453535:run --limit 20 Scala
+1687257463201:run --limit 20 Louise
+1687257471375:run --limit 17 Louise
+1687257646150:test

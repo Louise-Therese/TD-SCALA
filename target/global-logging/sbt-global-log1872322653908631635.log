@@ -1,0 +1,31 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(89d0fa5b-2033-4617-bdf6-cc22430a7d7d), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMainSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mformatUrl[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct URL[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mparseJson[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return a sequence of WikiPage objects parsed from the raw JSON[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mtotalWords[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 0 for an empty list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct total word count for a non-empty list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mparseArguments[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return None for non-parsable arguments[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return Some(keyword) for arguments with keyword *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  None was not equal to Some("Scala") (MainSpec.scala:84)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  None$(value: -> Scala)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return Some(keyword, limit) for arguments with keyword and limit *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  None was not equal to Some((Scala,10)) (MainSpec.scala:94)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  None$(value: -> (Scala,10))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 32 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 7[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 2, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 2 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	MainSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 20 juin 2023 11:47:06[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

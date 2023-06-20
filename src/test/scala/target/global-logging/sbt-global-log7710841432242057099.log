@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(31e213b6-341c-4eae-baf5-d3299a53125e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\cheik\Scala\wikipages\src\test\target\scala-2.12\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cheik\Scala\wikipages\src\test\MainSpec.scala:1:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.flatspec.AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cheik\Scala\wikipages\src\test\MainSpec.scala:2:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.matchers.should.Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cheik\Scala\wikipages\src\test\MainSpec.scala:4:24: not found: type AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass MainSpec extends AnyFlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cheik\Scala\wikipages\src\test\MainSpec.scala:4:41: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass MainSpec extends AnyFlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cheik\Scala\wikipages\src\test\MainSpec.scala:5:15: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  "formatUrl" should "return the correct URL" in {[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cheik\Scala\wikipages\src\test\MainSpec.scala:10:21: not found: value Main[0m
+[0m[[0m[31merror[0m] [0m[0m    val actualUrl = Main.formatUrl(keyword, limit)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 4 s, completed 20 juin 2023 11:29:30[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

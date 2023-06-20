@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cheik\Scala\wikipages\src\main\scala\Main.scala:42:18: value is200 is not a member of scalaj.http.HttpResponse[String][0m
+[0m[[0m[31merror[0m] [0m[0m    if (response.is200) {[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
